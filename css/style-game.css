@@ -1,0 +1,56 @@
+/*共通-----------------------*/
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 2;
+    background-color: rgba(231, 230, 218, 0.397);
+}
+
+.clearfix {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #6aa7cd;
+}
+
+header h1, h2 {
+    color: rgb(226, 247, 187);
+    margin: 0 0;
+    padding: 5vh 0 0 5vw;
+}
+
+#wrap-top {
+    margin-top: 0;
+    border-bottom: 200px solid transparent;
+    border-left: 98vw solid #6aa7cd;
+    border-bottom: 100%;
+}
+/*-----------------------*/
+
+nav li {
+    float: left;
+    list-style: none;
+}
+
+#wrap {
+    margin: 50px 0;
+}
+
+iframe {
+    margin: 50px 50px;
+    float: none;
+}
+
+table {
+    margin: 20px 20px;
+}

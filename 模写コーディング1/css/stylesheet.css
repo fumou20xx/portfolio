@@ -1,0 +1,102 @@
+body {
+    text-size-adjust: 100%;
+    overflow-x: hidden;
+    color: rgb(255, 255, 255);
+    font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+    background: rgb(0, 0, 0);
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+.sidebar {
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+}
+
+.side-logo {
+    width: 87px;
+    height: 22.42px;
+    padding: 30px 0 50px 0;
+}
+
+.side-contents {
+    padding-left: 20%;
+}
+
+.side-menu li a {
+    color: #fff;
+    font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+    font-size: 14px;
+}
+
+.side-menu li a:hover {
+    text-decoration: underline;
+}
+
+.side-menu li {
+    padding: 0 0 20px 0; 
+}
+
+.side-icons .fab{
+    width: 20px;
+    height: 20px;
+    padding: 50px 10px 0 0;
+}
+
+.side-icons .fab:hover {
+    opacity: 0.8;
+}
+
+.contents {
+    width: 80%;
+}
+
+.top-image {
+    width: 100%;
+    
+}
+
+.message-wrapper {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading {
+    font-size: 22px;
+    font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+    padding: 85px 0 20px 0;
+    border-bottom: 3px solid #fff;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.textarea {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0 0 85px 0;
+}
+
+.photo-wrapper img {
+    width: 33.3333%;
+    
+}
+
+span .big-photo{
+    width: 100%;
+}

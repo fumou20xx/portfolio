@@ -1,0 +1,156 @@
+/*共通-----------------------*/
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 2;
+    background-color: rgba(231, 230, 218, 0.397);
+}
+
+.clearfix {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #6aa7cd;
+}
+
+header h1 {
+    color: rgb(226, 247, 187);
+    margin: 0 0;
+    padding: 5vh 0 0 5vw;
+}
+
+#wrap-top {
+    margin-top: 0;
+    border-bottom: 200px solid transparent;
+    border-left: 98vw solid #6aa7cd;
+
+}
+/*-----------------------*/
+
+#wrap {
+    margin-top: 100px;
+
+
+    /* position: sticky; */
+}
+
+#profile {
+    max-width: 700px;
+    margin: 100px auto;
+    height: auto;
+}
+
+#profile h2 {
+    text-align: center;
+}
+
+#profile img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 200px 0 200px;
+}
+
+.pro-con {
+    text-align: center;
+}
+
+#skill {
+    max-width: 1080px;
+    margin: 0 auto 100px auto;
+    height: auto;
+}
+
+#skill h2 {
+    text-align: center;
+}
+
+#skill-con {
+    margin: 0 345px;
+}
+
+.fas, .fab{
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+    background-color:#ffffff ;
+    border: solid 5px rgb(219, 219, 219);
+    margin: 20px 0 0 20px;
+    font-size: 1.5em;
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+}
+
+.fas p, .fab p {
+    font-size: 15px;
+}
+
+#works {
+    max-width: 1080px;
+    margin: 0 auto;
+    margin: 0 auto;
+}
+
+#works h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#work-con {
+    margin: 0 200px 100px 200px;
+}
+
+.work-item {
+    width: 100%;
+    height: 100px;
+    border-radius: 20px;
+    background-color: steelblue;
+    padding-top: 40px;
+    color: #ffffff;
+}
+
+
+.work-web {
+    background-image: url(../img/web-img1.png);
+    background-position: right 30% bottom 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.work-illust {
+    background-image: url(../img/illust6.PNG);
+    background-position: right 90% bottom 68%;
+}
+
+.work-game {
+    background-image: url(../img/game.png);
+    background-position: right 60% bottom 65%;
+}
+
+#works a {
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #6aa7cd;
+}
+
+footer p {
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(226, 247, 187);
+}
+

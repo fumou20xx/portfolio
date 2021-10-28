@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>お絵描きサイト</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!--色変更に使うライブラリで用意されているCSSの導入-->
+    <link rel='stylesheet' href='css/colorjoe.css'>
+    <link rel='stylesheet' href='css/main.css'>
+    <script src='./js/main.js'></script>
+    <!-- 色変更に使うライブラリの導入-->
+    <script src="./js/colorjoe.min.js"></script>
+
+</head>
+<body>
+    <h1>お絵描きサイト</h1>
+    <div>
+        <canvas 
+        id="draw-area"
+        width="400px"
+        height="400px"
+        style="border: 1px solid #000000;">
+        </canvas>
+        <!--カラーパレット-->
+        <span id="color-palette"></span>
+    </div>
+    <div>
+        <button id="clear-button">全消し</button>
+    </div>
+    <div>
+        <button id="eraser-button">消しゴム</button>
+    </div>
+
+</body>
+</html>
